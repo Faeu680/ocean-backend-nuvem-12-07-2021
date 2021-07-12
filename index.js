@@ -2,8 +2,8 @@ const express = require("express");
 const { MongoClient, ObjectId } = require("mongodb");
 
 (async () => {
-    const url = "mongodb+srv://rafael680:ZoMjyAgnFNbItPAq@cluster0.hsghz.mongodb.net/OCEAN_DB?retryWrites=true&w=majority";
-    const dbName = "OCEAN_DB";
+    const url = "mongodb+srv://rafael680:ZoMjyAgnFNbItPAq@cluster0.hsghz.mongodb.net/ocean_db?retryWrites=true&w=majority";
+    const dbName = "ocean_db";
 
     console.info("Conectando ao banco de dados...");
 
